@@ -1,1 +1,271 @@
-@media(max-width:1200px){html{font-size: 15px;}.site-banner {height: 75vh;}.banner-text h1 {font-size: 3rem;}.banner-text p {font-size: 1.3625rem;}.sub-banner .banner-text h1 {font-size: 2.8rem;}.sub-banner .banner-text p {font-size: 1.1625rem;}.site-banner.sub-banner {height: 65vh;}}@media(max-width:1050px){.choose-wrap, .play-wrap {justify-content: center;gap: 1.25rem;}.choose-box, .play-box {width: 48%;}.tournament-box {width: 48%;}.chess-main {padding-top: 9.5rem;padding-bottom: 2.25rem;}}@media(max-width:992px){.header-right .contact-btn {display: none;}.toggle {display: block;}.toggle img {width: 30px;}.main-nav ul {flex-direction: column;align-items: flex-start;gap: 10px;}.main-nav {position: fixed;top: 0;left: 0;height: 100vh;width: 300px;background: linear-gradient(180deg, #ff591e 0%, #ffb365 100%);z-index: 9;padding: 45px;transform: translateX(-100%);transition: all 0.3s linear;}.menuToggle .main-nav {transform: translateX(0%);}.main-nav ul li a {font-size: 1.25rem;font-weight: 500;color: #ffffff;}.close {height: 30px;width: 30px;padding: 7px;border: 2px solid #fff;border-radius: 30px;display: flex;align-items: center;justify-content: center;position: absolute;top: 10px;right: 12px;}.close img{filter: brightness(0) invert(1);-webkit-filter: brightness(0) invert(1);}.site-logo {width: auto;}.header-right {width: auto;}.chess-left, .chess-right {width: 100%;}.chess-game-img {height: max-content;margin-bottom: 30px;}}@media(max-width:850px){.chess-wrap {justify-content: center;flex-wrap: wrap;}.chess-box {width: 48%;}.site-banner {height: 70vh;}.news-box {width: 80%;}.news-wrap {justify-content: center;flex-wrap: wrap;text-align: center;gap: 30px;}.tournament-box {width: 100%;}}@media(max-width:767px){.banner-text {backdrop-filter: blur(0px);}.chess-box, .choose-box, .news-box, .play-box {width: 100%;}.footer-wrap {justify-content: center;flex-direction: column-reverse;gap: 15px;}.site-banner.sub-banner {height: 60vh;}}@media(max-width:575px){html{font-size: 14px;}.main-nav {width: 100%;}.toggle img {width: 25px;}.wrapper {max-width: 90%;}.play-btn-wrap {padding: 1.5625rem 3.5rem;}}@media(max-width:375px){.site-banner {height: 60vh;}.main-nav {padding: 45px 20px;}.wrapper .buttons {justify-content: center;flex-wrap: wrap;flex-direction: column;gap: 10px;}.buttons .button {padding: 14px 0;width: calc(100% / 1 - 10px);}.play-btn-wrap {padding: 1.5625rem 3rem;justify-content: space-between;}}
+@media(max-width:1200px) {
+    html {
+        font-size: 15px;
+    }
+
+    .site-banner {
+        height: 75vh;
+    }
+
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+
+    .banner-text p {
+        font-size: 1.3625rem;
+    }
+
+    .sub-banner .banner-text h1 {
+        font-size: 2.8rem;
+    }
+
+    .sub-banner .banner-text p {
+        font-size: 1.1625rem;
+    }
+
+    .site-banner.sub-banner {
+        height: 65vh;
+    }
+}
+
+@media(max-width:1050px) {
+
+    .choose-wrap,
+    .play-wrap {
+        justify-content: center;
+        gap: 1.25rem;
+    }
+
+    .choose-box,
+    .play-box {
+        width: 48%;
+    }
+
+    .tournament-box {
+        width: 48%;
+    }
+
+    .chess-main {
+        padding-top: 9.5rem;
+        padding-bottom: 2.25rem;
+    }
+    .contact-left, .contact-right {
+        width: 100%;
+    }
+    .contact-img {
+        height: 400px;
+    }
+}
+
+@media(max-width:992px) {
+    .header-right .contact-btn {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .toggle img {
+        width: 30px;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .main-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 300px;
+        background: linear-gradient(180deg, #ff591e 0%, #ffb365 100%);
+        z-index: 9;
+        padding: 45px;
+        transform: translateX(-100%);
+        transition: all 0.3s linear;
+    }
+
+    .menuToggle .main-nav {
+        transform: translateX(0%);
+    }
+
+    .main-nav ul li a {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+    .close {
+        height: 30px;
+        width: 30px;
+        padding: 7px;
+        border: 2px solid #fff;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 10px;
+        right: 12px;
+    }
+
+    .close img {
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
+    }
+
+    .site-logo {
+        width: auto;
+    }
+
+    .header-right {
+        width: auto;
+    }
+
+    .chess-left,
+    .chess-right {
+        width: 100%;
+    }
+
+    .chess-game-img {
+        height: max-content;
+        margin-bottom: 30px;
+    }
+    .what-we-offer .play-box {
+        width: 48%;
+    }
+    .main-nav ul li a:hover, .main-nav ul li a.active {
+        color: #000000;
+    }
+}
+
+@media(max-width:850px) {
+    .chess-wrap {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .chess-box {
+        width: 48%;
+    }
+
+    .site-banner {
+        height: 70vh;
+    }
+
+    .news-box {
+        width: 80%;
+    }
+
+    .news-wrap {
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .tournament-box {
+        width: 100%;
+    }
+}
+
+@media(max-width:767px) {
+    .banner-text {
+        backdrop-filter: blur(0px);
+    }
+
+    .chess-box,
+    .choose-box,
+    .news-box,
+    .play-box {
+        width: 100%;
+    }
+
+    .footer-wrap {
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .site-banner.sub-banner {
+        height: 60vh;
+    }
+    .what-we-offer .play-box {
+        width: 100%;
+    }
+    .contact-img {
+        height: 350px;
+    }
+}
+
+@media(max-width:575px) {
+    html {
+        font-size: 14px;
+    }
+
+    .main-nav {
+        width: 100%;
+    }
+
+    .toggle img {
+        width: 25px;
+    }
+
+    .wrapper {
+        max-width: 90%;
+    }
+
+    .play-btn-wrap {
+        padding: 1.5625rem 3.5rem;
+    }
+    .copy-right {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .disclaimer-text, .footer-wrap {
+        max-width: 100%;
+    }
+    .footer-links ul {
+        text-align: center;
+    }
+    .contact-img {
+        height: 300px;
+    }
+    .contact-form {
+        padding: 20px 20px;
+    }
+    .form-group textarea {
+        height: 200px;
+    }
+}
+
+@media(max-width:375px) {
+    .site-banner {
+        height: 60vh;
+    }
+
+    .main-nav {
+        padding: 45px 20px;
+    }
+
+    .wrapper .buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttons .button {
+        padding: 14px 0;
+        width: calc(100% / 1 - 10px);
+    }
+
+    .play-btn-wrap {
+        padding: 1.5625rem 3rem;
+        justify-content: space-between;
+    }
+}
